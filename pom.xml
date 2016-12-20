@@ -91,8 +91,9 @@
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>tomcat-maven-plugin</artifactId>
 				<configuration>
-					<url>http://localhost:80/manager/html</url>
+					<url>http://localhost:8080/manager/html</url>
 					<server>mytomcat</server>
+					
 					
 				</configuration>
 			</plugin>
@@ -127,7 +128,7 @@
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
-					<path>/CounterWebApp</path>
+					<path>/${project.build.finalName}</path>
 				</configuration>
 			</plugin>
 
