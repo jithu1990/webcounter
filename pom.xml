@@ -16,6 +16,16 @@
 		<logback.version>1.0.13</logback.version>
 		<jcl-over-slf4j.version>1.7.5</jcl-over-slf4j.version>
 	</properties>
+	<distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>corp1</id>
+      <name>Corporate Repository</name>
+      <url>E:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps</url>
+      <layout>default</layout>
+    </repository>
+    
+</distributionManagement>
 
 	<dependencies>
 
